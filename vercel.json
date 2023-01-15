@@ -9,4 +9,9 @@
 			"src": "/(.*)",
 			"dest": "pythoncharts/wsgi.py"
 		}]
+	"functions": {
+    "api/**/*.py": {
+      "excludeFiles": "public/**"
+    }
+  }
 }
