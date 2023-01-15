@@ -1,7 +1,9 @@
 {
+	"version": 2,
+	
 	"builds": [{
 		"src": "pythoncharts/wsgi.py",
-		"use": "@vercel/python",
+		"use": "@vercel/python@3.10",
 		"config": {"maxLambdaSize": "15mb","maxDuration": 60, "runtime": "python3.10"}
 	}],
 	"routes": [
