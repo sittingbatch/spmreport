@@ -2,7 +2,7 @@
 	"builds": [{
 		"src": "pythoncharts/wsgi.py",
 		"use": "@vercel/python",
-		"config": {"memory": 1024, "runtime": "python3.10"}
+		"config": {"memory": 1024,"maxDuration": 60, "runtime": "python3.10"}
 	}],
 	"routes": [
 		{
