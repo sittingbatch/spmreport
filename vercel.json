@@ -4,7 +4,7 @@
 	"builds": [{
 		"src": "pythoncharts/wsgi.py",
 		"use": "@vercel/python",
-		"config": {}
+		"config": {"excludeFiles": "public/**"}
 	}],
 	"routes": [
 		{
